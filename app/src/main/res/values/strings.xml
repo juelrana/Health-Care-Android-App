@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">HealthCareApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_member">Add Member Form</string>
+    <string name="title_activity_diet">Diet List</string>
+    <string name="title_activity_add_diet">Add Diet Form</string>
+    <string name="title_activity_doctor_info">DoctorInfoActivity</string>
+    <string name="title_activity_add_doctor">AddDoctorActivity</string>
+    <string name="title_activity_vaccine_info">VaccineInfoActivity</string>
+    <string name="title_activity_add_vaccine">AddVaccineActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="DoctorSpecialization">
+        <item>Select</item>
+        <item>Audiologist</item>
+        <item>Allergist</item>
+        <item>Anesthesiologist</item>
+        <item>Cardiologist</item>
+        <item>Dentist</item>
+        <item>Dermatologist</item>
+        <item>Endocrinologist</item>
+        <item>Epidemiologist</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="Relation">
+        <item>Select</item>
+        <item>Self</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Mother</item>
+        <item>Father</item>
+        <item>Cousin</item>
+        <item>Friend</item>
+        <item>GrandMother</item>
+        <item>GrandFather</item>
+    </string-array>
+    <string-array name="BloodGroup">
+        <item>Select</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string name="title_activity_medicine_info">MedicineInfoActivity</string>
+    <string name="title_activity_add_medicine">AddMedicineActivity</string>
+    <string name="title_activity_prescription">PrescriptionActivity</string>
+    <string name="title_activity_add_prescription">AddPrescriptionActivity</string>
+    <string name="title_activity_add_hospital">AddHospitalActivity</string>
+</resources>

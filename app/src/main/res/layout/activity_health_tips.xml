@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#E1E1E1"
+    tools:context="com.example.jamil.healthcareapp.Others.HealthTipsActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    >
+
+    <TextView
+        android:id="@+id/health_tips1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    1. Eat a Variety of Foods
+"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+    <TextView
+        android:id="@+id/health_tips_details1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You need more than 40 different nutrients for good health and no single food can supply them all. Today's food supply makes it easy to eat a wide variety of foods whether or not you are buying fresh foods to cook, taking advantage of ready-prepared dishes and meals or buying  foods. Balance your choice over time! If you have a high-fat lunch, have a low-fat dinner. If you eat a large serving of meat at dinner one day, perhaps choose fish the next day.
+"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+
+    <TextView
+        android:id="@+id/health_tips2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    2. Base your diet on plenty of foods rich in carbohydrates
+"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+    <TextView
+        android:id="@+id/health_tips_details2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Most people do not eat enough of foods such as bread, pasta, rice, other cereals and potatoes. More than half the calories in your diet should come from these foods. Try wholegrain bread, pasta and other wholegrain cereals, too, to increase your fibre intake.
+"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+
+    <TextView
+        android:id="@+id/health_tips3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    3. Enjoy plenty of fruits and vegetables
+"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+    <TextView
+        android:id="@+id/health_tips_details3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Most of us do not eat enough of these foods either although they provide important protective nutrients. Try to eat at least five servings a day and if you do not enjoy them at first - try some new recipes or see what ready prepared dishes are available in the supermarket.
+"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+    <TextView
+        android:id="@+id/health_tips4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    4. Maintain a healthy body weight and feel good
+"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+    <TextView
+        android:id="@+id/health_tips_details4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The weight that is right for you depends on many factors including your sex, height, age and heredity. Being overweight increases your risk of a wide range of diseases including heart disease and cancer. Excess body fat results when you eat more calories than you need. These extra calories can come from any caloric nutrient - protein, fat, carbohydrate or alcohol- but fat is the most concentrated source of calories. Physical activity is a good way of increasing the energy (calories) you expend each day and it can make you feel good. The message is simple: if you are gaining weight, you need to eat less and be more active.
+"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+    <TextView
+        android:id="@+id/health_tips5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    5. Eat moderate portions - reduce, don't eliminate foods
+"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+    <TextView
+        android:id="@+id/health_tips_details5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you keep portion sizes reasonable, it's easier to eat all the foods you enjoy without having to eliminate any. For example, some reasonable serving sizes are: 100g of meat; one medium piece of fruit, half a cup of raw pasta and 50ml of ice-cream. Ready-prepared meals can offer a handy means of portion control and they often have the calorie values on the pack to help those who are counting. If you are eating out, you could share a portion with a friend.
+"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+    <TextView
+        android:id="@+id/health_tips6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    6. Eat regularly
+"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+    <TextView
+        android:id="@+id/health_tips_details6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skipping meals, especially breakfast, can lead to out-of-control hunger, often resulting in helpless overeating. Snacking between meals can help curb hunger, but don't eat so much as to substitute for proper meals. Don't forget to count your snacks as part of your total calorie intake.
+"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+    <TextView
+        android:id="@+id/health_tips7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    7. Drink plenty of fluids
+"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+
+    <TextView
+        android:id="@+id/health_tips_details7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adults need to drink at least 1.5 litres of fluid a day! Or more if it's very hot or they are physically active. Plain tap water is obviously a good source of liquid but variety can be both pleasant and healthy. Alternative choices are juices, soft drinks, tea, coffee, milk etc.
+"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+
+    <TextView
+        android:id="@+id/health_tips8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    8. Get on the move
+"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+
+    <TextView
+        android:id="@+id/health_tips_details8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="As we have seen, too many calories and not enough activity can result in weight gain. Moderately physical activity helps burn off those extra calories. It is also good for the heart and circulatory system and for general health and well-being. So, make physical activity part of your daily routine. Use the stairs instead of the liftelevator (up and down!). Go for a walk in your lunch break. You don't have to be an athlete to get on the move!
+"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+
+    <TextView
+        android:id="@+id/health_tips9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    9. Start now! - and make changes gradually
+"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+
+    <TextView
+        android:id="@+id/health_tips_details9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gradual changes in your lifestyle are much easier to make than major changes all at once. For three days, write down the foods and drinks you consume at meals and as snacks - Do you have too few fruits andor portions of vegetables? To start with, try to eat just one extra piece of fruit and vegetables a day. Are your favourite foods high in fat and making you gain weight? Don't eliminate those foods and feel miserable, but try to choose low fat options or eat smaller portions. And start using the stairs at work!
+"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+
+    <TextView
+        android:id="@+id/health_tips10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    10. Remember, it is all about balance
+"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+
+    <TextView
+        android:id="@+id/health_tips_details10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There are no 'good' or 'bad' foods, only good or bad diets. Don't feel guilty about the foods you love, rather eat them in moderation and choose other foods to provide the balance and variety that are vital to good health.
+"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:textColor="#0c1b5b"
+        />
+
+
+</LinearLayout>
+
+
+</ScrollView>

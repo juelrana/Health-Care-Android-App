@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jamil.healthcareapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login.Splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Member.AddMemberActivity"
+            android:label="@string/title_activity_add_member"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".PersonalActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Diet.DietActivity"
+            android:label="@string/title_activity_diet"
+            android:parentActivityName=".PersonalActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PersonalActivity" />
+        </activity>
+        <activity
+            android:name=".Diet.AddDietActivity"
+            android:label="@string/title_activity_add_diet"
+            android:parentActivityName=".Diet.DietActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Diet.DietActivity" />
+        </activity>
+        <activity
+            android:name=".Doctor.DoctorInfoActivity"
+            android:label="@string/title_activity_doctor_info"
+            android:parentActivityName=".PersonalActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PersonalActivity" />
+        </activity>
+        <activity
+            android:name=".Doctor.AddDoctorActivity"
+            android:label="@string/title_activity_add_doctor"
+            android:parentActivityName=".Doctor.DoctorInfoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Doctor.DoctorInfoActivity" />
+        </activity>
+        <activity
+            android:name=".Vaccine.VaccineInfoActivity"
+            android:label="@string/title_activity_vaccine_info"
+            android:parentActivityName=".PersonalActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PersonalActivity" />
+        </activity>
+        <activity
+            android:name=".Vaccine.AddVaccineActivity"
+            android:label="@string/title_activity_add_vaccine"
+            android:parentActivityName=".Vaccine.VaccineInfoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Vaccine.VaccineInfoActivity" />
+        </activity>
+        <activity
+            android:name=".Medicine.MedicineInfoActivity"
+            android:label="@string/title_activity_medicine_info"
+            android:parentActivityName=".PersonalActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PersonalActivity" />
+        </activity>
+        <activity
+            android:name=".Medicine.AddMedicineActivity"
+            android:label="@string/title_activity_add_medicine"
+            android:parentActivityName=".Medicine.MedicineInfoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Medicine.MedicineInfoActivity" />
+        </activity>
+        <activity android:name=".Login.Login" />
+        <activity
+            android:name=".Prescription.PrescriptionActivity"
+            android:label="@string/title_activity_prescription"
+            android:parentActivityName=".PersonalActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PersonalActivity" />
+        </activity>
+        <activity
+            android:name=".Prescription.AddPrescriptionActivity"
+            android:label="@string/title_activity_add_prescription"
+            android:parentActivityName=".Prescription.PrescriptionActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Prescription.PrescriptionActivity" />
+        </activity>
+        <activity
+            android:name=".Others.HealthTipsActivity"
+            android:label="Health Tips"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Others.AddHospitalActivity"
+            android:label="@string/title_activity_add_hospital"
+            android:parentActivityName=".Others.HospitalInfoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Others.HospitalInfoActivity" />
+        </activity>
+
+        <activity android:name=".Others.HospitalInfoActivity"
+            android:label="Hospital List"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
