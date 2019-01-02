@@ -1,3 +1,3 @@
 # Health-Care-Android-App
-This one is my First Completed Android app in 2016
+This one is my First Completed Android app in 2016.
 This app has been made for tracking family member’s health-related problems. A key person who is an admin in this app and he can monitor his own health and also keep record other member’s health-related problems. Furthermore, he can maintain a diet chart, Medicine plan, vaccination chart and doctor appointment. Alarm and reminder feature of this app will help people to be aware oftheir schedule related to medical or diet. Besides, people can store hospital information, doctor information, diet informationand vaccination information. Implementing this app, I have learned many useful features of Android for example broadcast receiver, service, content provider, list and adapter, APIs, HTTP and web services, Application signing and deployment, Google cloud messaging, SQLite database,etc.
